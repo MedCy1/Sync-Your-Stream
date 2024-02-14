@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Sync</title>
+    <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
+</head>
+<body>
+    <video id="myVideo" controls>
+        <source src="../server/video/video.mp4" type="video/mp4">
+    </video>
+    <button onclick="generateShareCode()">Generate Share Code</button>
+    <input type="text" id="shareCodeInput" placeholder="Enter share code">
+    <button onclick="joinWithShareCode()">Join with Share Code</button>
+    <script src="./script/script.js"></script>
+</body>
+</html>
